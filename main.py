@@ -8,6 +8,9 @@ import matplotlib.pyplot as plt
 from gait.load_experimental_data import LoadData
 from gait.ocp import prepare_ocp, get_phase_time_shooting_numbers, get_experimental_data
 
+# version biorbd : 1.8.4
+# version bioptim : 2.2.0
+# version bioviz : 2.1.5 
 
 if __name__ == "__main__":
     root_path = "/".join(__file__.split("/")[:-1]) + "/"
